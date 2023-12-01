@@ -39,12 +39,10 @@ import androidx.compose.ui.unit.dp
          Button(onClick = { startSensorActivity = true }) {
              Text("Go to Sensor Activity")
          }
-
-         // Handle navigation
          if (startSensorActivity) {
              LaunchedEffect(Unit) {
                  context.startActivity(Intent(context, SensorActivity::class.java))
-                 startSensorActivity = false // Reset the state to avoid re-navigation
+                 startSensorActivity = false
              }
          }
      }

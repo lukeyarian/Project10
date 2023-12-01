@@ -40,10 +40,7 @@ fun GestureScreen() {
 
 @Composable
 fun TopSection(ballPosition: Offset, onBallMove: (Offset) -> Unit) {
-    Box(modifier = Modifier
-        .fillMaxHeight(0.5f)
-        .fillMaxWidth()
-        .pointerInput(Unit) {
+    Box(modifier = Modifier.fillMaxHeight(0.5f).fillMaxWidth().pointerInput(Unit) {
             detectDragGestures { change, _ ->
                 onBallMove(change.position)
             }
@@ -54,12 +51,9 @@ fun TopSection(ballPosition: Offset, onBallMove: (Offset) -> Unit) {
         }
     }
 }
-
 @Composable
 fun BottomSection(gestureLog: List<String>) {
-    Column(modifier = Modifier
-        .fillMaxHeight()
-        .padding(16.dp)
+    Column(modifier = Modifier.fillMaxHeight().padding(16.dp)
     ) {
         gestureLog.forEach { log ->
             Text(log)
