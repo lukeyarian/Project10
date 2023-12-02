@@ -26,6 +26,9 @@ The following **extensions** are implemented:
 This app went a little smoother than some other apps in the developing process. However, I got stuck on the sensors activity and I'm not sure it is completely meeting all of the requirements. I also was stuck for a while on the Google
 Play testing track portion of the assignnment. ADD: I can't figure out how to create a keystore and realized that is costs $25 to create an account just to publish this one app. -20!
 
+<img width="376" alt="image" src="https://github.com/lukeyarian/Project10/assets/70252777/d0181f60-dc6f-4a24-9eb3-bbeb93ba38dc">
+
+
 ## License
 
     Copyright [2023] [Luke Yarian]
