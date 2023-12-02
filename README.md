@@ -24,7 +24,7 @@ The following **extensions** are implemented:
 ## Notes
 
 This app went a little smoother than some other apps in the developing process. However, I got stuck on the sensors activity and I'm not sure it is completely meeting all of the requirements. I also was stuck for a while on the Google
-Play testing track portion of the assignnment.
+Play testing track portion of the assignnment. ADD: I can't figure out how to create a keystore and realized that is costs $25 to create an account just to publish this one app. -20!
 
 ## License
 
